@@ -1,12 +1,157 @@
+body {
+    
+}
 #top {
-    padding: 50px 10px;
+    padding: 300px 10px;
     font-family: 'News Cycle';
     text-align: center;
 }
 .bg {
     display: block;
     background-attachment: fixed;
-    background-image: url(stock.jpg);
+    background-image: url(Stock2.jpg);
+    background-position: bottom;
     background-size: cover;
     padding: 500px;
+}
+.bg2 {
+    display: block;
+    background-attachment: fixed;
+    background-image: url(Stock.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding:  450px 0;
+}
+.bg3 {
+    display: block;
+    background-attachment: fixed;
+    background-image: url(road.jpg);
+    background-size: cover;
+    padding: 500px 0;
+}
+.bg4 {
+    display: block;
+    background-attachment: fixed;
+    background-image: url("https://scontent-a-mia.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10477291_10152521288887241_2293285845097671467_o.jpg?dl=1");
+    background-size: cover;
+    padding: 500px 0;
+}
+.contact {
+    line-height: 2;
+}
+#work {
+    font-family: 'News Cycle';
+}
+#work > .name {
+    text-align: center;
+    font-weight: 700;
+}
+#work > .description {
+    text-align: center;
+}
+.spark {
+    width: 300px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+.col-md-7 > .name {
+    text-align: center;
+    font-weight: 700;
+}
+.col-md-7 > .role {
+    text-align: center;
+}
+.col-md-7 > .year {
+    text-align: center;
+}
+.col-md-7 > .description {
+    text-align: center;
+    line-height: 1.5;
+}
+#education {
+    font-family: 'News Cycle';
+}
+#education > .name {
+    font-weight: 700;
+    text-align: center;
+}
+#education > .description {
+    text-align: center;
+}
+.jak {
+    /* Nothing to modify here */
+}
+#khs {
+    width: 350px;
+    vertical-align: middle;
+}
+.col-md-7 {
+    vertical-align: middle;
+}
+.photo {
+    width: 300px;
+}
+.me {
+    vertical-align: middle;
+    border-radius: 50px;
+}
+.gpa {
+    text-align: center;
+}
+#skills {
+    font-family: 'News Cycle';
+}
+#skills > .name {
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+}
+#skills > .description {
+    text-align: center;
+}
+img {
+    vertical-align: middle;
+}
+#certifications {
+    font-family: 'News Cycle';
+}
+#certifications > .name {
+    text-align: center;
+    font-weight: 700;
+}
+#certifications > .description {
+    text-align: center;
+}
+@media (max-width: 700px) {
+    .contact {
+        line-height: 1.5;
+    }
+    .spark {
+        margin: 0;
+        width: 400px;
+    }
+    #top {
+        padding: 200px 10px;
+    }
+    .jak {
+        vertical-align: middle;
+        position: relative;
+        left: 70px;
+    }
+    .photo {
+        vertical-align: middle;
+        position: relative;
+        left: 70px;
+    }
+    #khs {
+        vertical-align: middle;
+        position: relative;
+        left: 45px;
+        min-width: 200px;
+        max-height: 400px;
+    }
+    img {
+        border: 0;
+        vertical-align: middle;
+    }
 }
