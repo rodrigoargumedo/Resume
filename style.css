@@ -17,7 +17,7 @@ body {
 .bg2 {
     display: block;
     background-attachment: fixed;
-    background-image: url(Stock.jpg);
+    background-image: url(stock.jpg);
     background-position: bottom;
     background-size: cover;
     padding:  450px 0;
