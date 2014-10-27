@@ -20,21 +20,35 @@ body {
     background-image: url(stock.jpg);
     background-position: bottom;
     background-size: cover;
-    padding:  450px 0;
+    padding:  300px 0;
 }
 .bg3 {
     display: block;
     background-attachment: fixed;
     background-image: url(road.jpg);
     background-size: cover;
-    padding: 500px 0;
+    padding: 300px 0;
 }
 .bg4 {
     display: block;
     background-attachment: fixed;
     background-image: url("https://scontent-a-mia.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10477291_10152521288887241_2293285845097671467_o.jpg?dl=1");
     background-size: cover;
-    padding: 500px 0;
+    padding: 300px 0;
+}
+.bg5 {
+    display: block;
+    background-attachment: fixed;
+    background-image: url("https://unsplash.imgix.net/26/hazy-tree.JPG?q=75&fm=jpg&s=429f8518c688865ad4a7ba5f463e166f");
+    background-size: cover;
+    padding: 300px 0;
+}
+.bg6 {
+    display: block;
+    background-attachment: fixed;
+    background-image: url("https://unsplash.imgix.net/uploads/1411419068566071cef10/7562527b?q=75&fm=jpg&s=db09eb7e925e320ab2305438d97ca9f8");
+    background-size: cover;
+    padding: 300px 0;
 }
 .contact {
     line-height: 2;
@@ -122,13 +136,42 @@ img {
 #certifications > .description {
     text-align: center;
 }
+#awards {
+    font-family: 'News Cycle';
+}
+#awards > .name {
+    text-align: center;
+    font-weight: 700;
+}
+#awards > .description {
+    text-align: center
+}
+footer {
+    font-family: 'News Cycle';
+}
+footer > .name {
+    font-weight: 700;
+    text-align: center;
+}
+.note {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.col-sm-4 > .name {
+    text-align: center;
+}
+footer > .copyright {
+    text-align: center;
+}
 @media (max-width: 700px) {
     .contact {
         line-height: 1.5;
     }
     .spark {
         margin: 0;
-        width: 400px;
+        min-height: 100px;
+        max-height: 400px;
     }
     #top {
         padding: 200px 10px;
@@ -136,22 +179,32 @@ img {
     .jak {
         vertical-align: middle;
         position: relative;
-        left: 70px;
+        left: 50px;
     }
     .photo {
         vertical-align: middle;
         position: relative;
-        left: 70px;
+        left: 40px;
     }
     #khs {
-        vertical-align: middle;
-        position: relative;
-        left: 45px;
-        min-width: 200px;
-        max-height: 400px;
+        min-width: 100px;
+        max-width: 500px;
     }
     img {
         border: 0;
         vertical-align: middle;
     }
 }
+@media (max-width: 400px) {
+    .spark {
+        width: 230px;
+    }
+    .jak {
+        position: relative;
+        width: 150px;
+    }
+    .photo {
+        width: 150px
+    }
+}
+    
