@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 #copyright {
-    background-color: #888888;
+    background-color: #666666;
     padding: 20px 0;
 }
 .bg {
@@ -172,10 +172,11 @@ footer > .name {
     .contact {
         line-height: 1.5;
     }
-    .spark {
+    .coursality {
         margin: 0;
         min-height: 100px;
         max-height: 400px;
+				width: 150px
     }
     #top {
         padding: 200px 10px;
